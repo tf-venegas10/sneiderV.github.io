@@ -1,6 +1,5 @@
-
 p {
-	text-align : justify;
+    text-align : justify;
 }
 hr {
     margin: auto;
@@ -8,12 +7,12 @@ hr {
 }
 /*barra de navegacion*/
 .navbar-style {
-   background-color: #34495E ;
+    background-color: #34495E ;
 }
 .navbar-ct{
-	color: white;
-	font-family: "Raleway Webfont";
-	font-size:20px;
+    color: white;
+    font-family: "Raleway Webfont", serif; /*Tomas Venegas: agregar un default al tipo de letra*/
+    font-size:20px;
 }
 /*Seccion de inicio*/
 .home{
@@ -34,13 +33,13 @@ hr {
     text-transform:uppercase;
     color:#fff;
     font-weight:900;
-    font-family: "Raleway Webfont";
+    font-family: "Raleway Webfont", serif; /*Tomas Venegas: agregar un default al tipo de letra*/
     letter-spacing:12px;
     border-top:2px solid #ecf0f2;
     border-bottom:2px solid #ecf0f2;
     padding:20px 0;
     text-align : center;
-} 
+}
 .home-content p{
     font-size:25px;
     margin-top:20px;
@@ -56,7 +55,7 @@ hr {
 /*Seccion de about me*/
 /*hacer que la imagen (about me) sea circular*/
 .imagen{
-	/*define el tamaño del circulo*/
+    /*define el tamaño del circulo*/
     height: 500px;
     width: 500px;
     /* los siguientes valores son independientes del tamaño del círculo */
@@ -66,62 +65,62 @@ hr {
     background-size: 100% auto;
 }
 .aboutme-text{
-	padding-top: 50px;
-	font-family: "Raleway Webfont";
-	font-size: 18px
+    padding-top: 50px;
+    font-family: "Raleway Webfont", serif; /*Tomas Venegas: agregar un default al tipo de letra*/
+    font-size: 18px
 }
 /*Seccion de Educacion y Experiencia*/
 .education{
-	background: url(../images/u.jpg) no-repeat center top fixed;
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	-o-background-size: cover;
-	width: 100%;
-	overflow: hidden;
+    background: url(../images/u.jpg) no-repeat center top fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
+    overflow: hidden;
 }
 .education-content{
-	background: rgba(79, 50, 68, .7);
-	padding:60px 40px;
-	color:#fff;
+    background: rgba(79, 50, 68, .7);
+    padding:60px 40px;
+    color:#fff;
 }
 .education-content h4{
-	color:#fff;
-	text-transform:uppercase;
-	font-size:26px;
-	font-family: "Raleway Webfont";
-	font-weight:600;
-	margin-bottom:50px;
+    color:#fff;
+    text-transform:uppercase;
+    font-size:26px;
+    font-family: "Raleway Webfont", serif; /*Tomas Venegas: agregar un default al tipo de letra*/
+    font-weight:600;
+    margin-bottom:50px;
 }
 .education-content .content-details h5{
-	color:#fff;
-	font-size:18px;
-	font-family: "Raleway Webfont";
+    color:#fff;
+    font-size:18px;
+    font-family: "Raleway Webfont", serif; /*Tomas Venegas: agregar un default al tipo de letra*/
 }
 .education-content .content-details h6{
-	color:#ecf0f2;
-	font-size:16px;
-	font-family: "Raleway Webfont";
+    color:#ecf0f2;
+    font-size:16px;
+    font-family: "Raleway Webfont", serif; /*Tomas Venegas: agregar un default al tipo de letra*/
 }
 .education-content .content-details p{
-	color:#ecf0f2;
-	font-family: "Raleway Webfont";
-	font-size: 18px
+    color:#ecf0f2;
+    font-family: "Raleway Webfont", serif; /*Tomas Venegas: agregar un default al tipo de letra*/
+    font-size: 18px
 }
 .education-content .content-details.content-border{
-	border-bottom:1px solid #dadada;
-	padding-bottom: 30px;
-	margin-bottom: 30px;
+    border-bottom:1px solid #dadada;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 /*seccion de proyectos*/
 .project-coming {
-     background: url(../images/i1.jpeg) no-repeat center top fixed;
+    background: url(../images/i1.jpeg) no-repeat center top fixed;
     height: 100%;
     background-size: cover;
     position: relative;
     color: black;
-    font-family: "Raleway Webfont";
+    font-family: "Raleway Webfont", serif; /*Tomas Venegas: agregar un default al tipo de letra*/
     font-size: 25px;
     padding-bottom: 400px;
     padding-top: 200px;
@@ -136,20 +135,20 @@ hr {
 
 /*seccion contacto*/
 .contact-head{
-	text-align : center;
-	font-family: "Raleway Webfont";
-	color: white;
+    text-align : center;
+    font-family: "Raleway Webfont", serif; /*Tomas Venegas: agregar un default al tipo de letra*/
+    color: white;
 }
 .contact-head p{
-	text-align: center;
-	font-family: "Raleway Webfont";
-	color: white;
+    text-align: center;
+    font-family: "Raleway Webfont", serif; /*Tomas Venegas: agregar un default al tipo de letra*/
+    color: white;
 }
 .contact-overlay {
-	background-color: rgba(0, 0, 0, .55);
-	width: 80%;
-	padding-top: 50px;
-	min-height:100px;
+    background-color: rgba(0, 0, 0, .55);
+    width: 80%;
+    padding-top: 50px;
+    min-height:100px;
 }
 .contact-icon{
     vertical-align: middle;
@@ -160,25 +159,31 @@ hr {
 
 /*forma de las secciones y fondo*/
 .sections {
-	padding-top: 100px;
-	padding-bottom: 100px;
-	position: relative;
-	overflow: hidden;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    overflow: hidden;
 }
 .sectionprojects{
-	position: relative;
-	overflow: hidden;
+    position: relative;
+    overflow: hidden;
 }
 .sectioncontact{
-	background: url(../images/bgt.jpg) center no-repeat;
-	background-color: black;
-	padding-top: 100px;
-	padding-bottom: 100px; 
+    background: url(../images/bgt.jpg) center no-repeat;
+    background-color: black;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 /*genero una seccion translucida*/
 .overlay {
-	background-color: rgba(0, 0, 0, .60);
-	width: 100%;
-	overflow:hidden;
-	min-height:700px;
+    background-color: rgba(0, 0, 0, .60);
+    width: 100%;
+    overflow:hidden;
+    min-height:700px;
 }
+
+/*Tomas Venegas: ¿No se podía agregar el tipo de letra una sola vez para que fuera más modificable?*/
+body{
+    font-family: "Raleway Webfont", serif; 
+}
+/*De pronto esto es suficiente, si hay excepciones de pronto es más fácil agregar estas*/
